@@ -1,0 +1,26 @@
+% proyecto creado por juan sandoval 
+clear all;
+clc;
+v1=zeros(1,1000);
+v2=zeros(1,1000);
+delete(instrfind({'port'},{'COM4'}));
+serial=serial('COM4');
+serial.BaudRate=9600;
+warning('off','MATLAB:serial:fscanf:unsuccessfulRead');
+fopen(serial);
+i=1;
+while(1)
+fprintf(serial,'%d,v1(i));
+fprintf(serial,'%d,v1(i));
+a=fscanf(serial,'%f,%f');
+v1(1)=a(1)/26.214;
+v2(i)=a(2)/26.214; 
+v1(i)=int16(a(1));
+v2(i)=int16(a(2));
+v1(i);
+v2(i);
+end
+fclose(serial);
+delete(serial);
+clear all;
+

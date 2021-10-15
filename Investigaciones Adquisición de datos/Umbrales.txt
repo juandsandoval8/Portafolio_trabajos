@@ -1,0 +1,7 @@
+desviacion estandar R 87.93         V 84.6428         A 86.0953
+media               R  210.8017     V  211.0068       A 211.0248
+
+
+
+umbral inferior = media-desviacion      (UR 210.8017-87.93) = 122.8717  (UV  211.00068-84.6428) = 126.35788  (UA 211.0248-86.0953) = 124.9295 
+umbral superior = desviacion + media    (UR 210.8017+87.93) = 298.7317 (UV 211.00068+84.6428) = 295.64348 (UA 211.0248+86.0953) = 297.1201

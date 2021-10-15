@@ -1,0 +1,574 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F452 ]
+[d frameptr 4065 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"417 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+[v _fround fround `(d  1 s 4 fround ]
+"433
+[v _scale scale `(d  1 s 4 scale ]
+"505
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 4 0 ]
+"12 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\exp.c
+[v _exp exp `(d  1 e 4 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"13 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\floor.c
+[v _floor floor `(d  1 e 4 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"254 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\frexp.c
+[v _frexp frexp `(d  1 e 4 0 ]
+"277
+[v _ldexp ldexp `(d  1 e 4 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"60 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\log.c
+[v _log log `(d  1 e 4 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\pow.c
+[v _pow pow `(d  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"58 E:\CalculadoraLCD.X\CalculadoraLCD.c
+[v _main main `(i  1 e 2 0 ]
+"381
+[v _conf_puertos conf_puertos `(v  1 e 1 0 ]
+"404
+[v _ini_LCD ini_LCD `(v  1 e 1 0 ]
+"437
+[v _enable enable `(v  1 e 1 0 ]
+"445
+[v _dato_LCD dato_LCD `(v  1 e 1 0 ]
+"454
+[v _ins_LCD ins_LCD `(v  1 e 1 0 ]
+"461
+[v _write_LCD write_LCD `(v  1 e 1 0 ]
+"469
+[v _nombresbaby nombresbaby `(ui  1 e 2 0 ]
+"52 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic18f452.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"197
+[v _PORTB PORTB `VEuc  1 e 1 @3969 ]
+"489
+[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
+"610
+[v _PORTE PORTE `VEuc  1 e 1 @3972 ]
+"722
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"822
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"1046
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"1158
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"1210
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"1408
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"1888
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"2110
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"3591
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"6686
+[v _RE0 RE0 `VEb  1 e 0 @31776 ]
+"6692
+[v _RE2 RE2 `VEb  1 e 0 @31778 ]
+"358 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `C[10]ul  1 s 40 dpowers ]
+"3 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\errno.c
+[v _errno errno `i  1 e 2 0 ]
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\powers.c
+[v __powers_ _powers_ `C[13]d  1 e 52 0 ]
+"39
+[v __npowers_ _npowers_ `C[13]d  1 e 52 0 ]
+"40 E:\CalculadoraLCD.X\CalculadoraLCD.c
+[v _buffer buffer `[40]uc  1 e 40 0 ]
+"41
+[v _num num `ui  1 e 2 0 ]
+"43
+[v _bin1 bin1 `[5]uc  1 e 5 0 ]
+[v _bin2 bin2 `[5]uc  1 e 5 0 ]
+[v _bin3 bin3 `[5]uc  1 e 5 0 ]
+[v _binc binc `[8]uc  1 e 8 0 ]
+[v _binco binco `[8]uc  1 e 8 0 ]
+"44
+[v _bincor bincor `[9]uc  1 e 9 0 ]
+"45
+[v _t t `uc  1 e 1 0 ]
+[v _A A `uc  1 e 1 0 ]
+[v _B B `uc  1 e 1 0 ]
+[v _S S `uc  1 e 1 0 ]
+[v _PB PB `uc  1 e 1 0 ]
+[v _D D `uc  1 e 1 0 ]
+"46
+[v _C C `uc  1 e 1 0 ]
+[v _E E `uc  1 e 1 0 ]
+[v _F F `uc  1 e 1 0 ]
+[v _G G `uc  1 e 1 0 ]
+[v _R R `uc  1 e 1 0 ]
+"47
+[v _X X `d  1 e 4 0 ]
+[v _Y Y `d  1 e 4 0 ]
+"48
+[v _bin bin `[5]uc  1 e 5 0 ]
+"58
+[v _main main `(i  1 e 2 0 ]
+{
+"378
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\pow.c
+[v _pow pow `(d  1 e 4 0 ]
+{
+"8
+[v pow@yi yi `ul  1 a 4 28 ]
+"7
+[v pow@sign sign `uc  1 a 1 27 ]
+"5
+[v pow@x x `d  1 p 4 11 ]
+[v pow@y y `d  1 p 4 15 ]
+"31
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\log.c
+[v _log log `(d  1 e 4 0 ]
+{
+"7
+[v log@exponent exponent `i  1 a 2 122 ]
+"5
+[v log@x x `d  1 p 4 118 ]
+"9
+[v log@coeff coeff `C[9]d  1 s 36 coeff ]
+"36
+} 0
+"12 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\exp.c
+[v _exp exp `(d  1 e 4 0 ]
+{
+"14
+[v exp@exponent exponent `i  1 a 2 8 ]
+"15
+[v exp@sign sign `uc  1 a 1 10 ]
+"12
+[v exp@x x `d  1 p 4 0 ]
+"17
+[v exp@coeff coeff `C[10]d  1 s 40 coeff ]
+"57
+} 0
+"277 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\frexp.c
+[v _ldexp ldexp `(d  1 e 4 0 ]
+{
+[v ldexp@value value `d  1 p 4 118 ]
+[v ldexp@newexp newexp `i  1 p 2 122 ]
+"307
+} 0
+"13 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\floor.c
+[v _floor floor `(d  1 e 4 0 ]
+{
+"15
+[v floor@i i `d  1 a 4 106 ]
+"16
+[v floor@expon expon `i  1 a 2 110 ]
+"13
+[v floor@x x `d  1 p 4 102 ]
+"30
+} 0
+"254 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\frexp.c
+[v _frexp frexp `(d  1 e 4 0 ]
+{
+[v frexp@value value `d  1 p 4 40 ]
+[v frexp@eptr eptr `*.39i  1 p 2 44 ]
+"274
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\evalpoly.c
+[v _eval_poly eval_poly `(d  1 e 4 0 ]
+{
+"6
+[v eval_poly@res res `d  1 a 4 114 ]
+"4
+[v eval_poly@x x `d  1 p 4 102 ]
+[v eval_poly@d d `*.25Cd  1 p 2 106 ]
+[v eval_poly@n n `i  1 p 2 108 ]
+"12
+} 0
+"11 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 19 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 12 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 17 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 24 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 23 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 16 ]
+"11
+[v ___fldiv@b b `d  1 p 4 0 ]
+[v ___fldiv@a a `d  1 p 4 4 ]
+"185
+} 0
+"469 E:\CalculadoraLCD.X\CalculadoraLCD.c
+[v _nombresbaby nombresbaby `(ui  1 e 2 0 ]
+{
+"536
+} 0
+"461
+[v _write_LCD write_LCD `(v  1 e 1 0 ]
+{
+[v write_LCD@tam tam `uc  1 a 1 wreg ]
+"463
+[v write_LCD@i i `uc  1 a 1 3 ]
+"461
+[v write_LCD@tam tam `uc  1 a 1 wreg ]
+"465
+[v write_LCD@tam tam `uc  1 a 1 2 ]
+"468
+} 0
+"445
+[v _dato_LCD dato_LCD `(v  1 e 1 0 ]
+{
+[v dato_LCD@dato dato `uc  1 a 1 wreg ]
+[v dato_LCD@dato dato `uc  1 a 1 wreg ]
+[v dato_LCD@dato dato `uc  1 a 1 1 ]
+"450
+} 0
+"505 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+"533
+[v sprintf@fval fval `d  1 a 4 40 ]
+"545
+[v sprintf@val val `ul  1 a 4 36 ]
+[u S241 . 4 `ul 1 vd 4 0 `d 1 integ 4 0 ]
+"543
+[v sprintf@tmpval tmpval `S241  1 a 4 32 ]
+"517
+[v sprintf@prec prec `i  1 a 2 44 ]
+"534
+[v sprintf@eexp eexp `i  1 a 2 30 ]
+"525
+[v sprintf@flag flag `us  1 a 2 28 ]
+"527
+[v sprintf@ccnt ccnt `i  1 a 2 26 ]
+"507
+[v sprintf@ap ap `[1]*.39v  1 a 2 24 ]
+"512
+[v sprintf@c c `uc  1 a 1 46 ]
+"505
+[v sprintf@sp sp `*.39uc  1 p 2 0 ]
+[v sprintf@f f `*.25Cuc  1 p 2 2 ]
+"1567
+} 0
+"433
+[v _scale scale `(d  1 s 4 scale ]
+{
+[v scale@scl scl `c  1 a 1 wreg ]
+[v scale@scl scl `c  1 a 1 wreg ]
+"436
+[v scale@scl scl `c  1 a 1 81 ]
+"449
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+{
+"10
+[v ___awmod@sign sign `uc  1 a 1 5 ]
+[v ___awmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___awmod@dividend dividend `i  1 p 2 0 ]
+[v ___awmod@divisor divisor `i  1 p 2 2 ]
+"34
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+{
+"10
+[v ___awdiv@quotient quotient `i  1 a 2 12 ]
+"11
+[v ___awdiv@sign sign `uc  1 a 1 11 ]
+[v ___awdiv@counter counter `uc  1 a 1 10 ]
+"7
+[v ___awdiv@dividend dividend `i  1 p 2 6 ]
+[v ___awdiv@divisor divisor `i  1 p 2 8 ]
+"41
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\isdigit.c
+[v _isdigit isdigit `(b  1 e 0 0 ]
+{
+[v isdigit@c c `uc  1 a 1 wreg ]
+[v isdigit@c c `uc  1 a 1 wreg ]
+"14
+[v isdigit@c c `uc  1 a 1 2 ]
+"15
+} 0
+"417 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\doprnt.c
+[v _fround fround `(d  1 s 4 fround ]
+{
+[v fround@prec prec `uc  1 a 1 wreg ]
+[v fround@prec prec `uc  1 a 1 wreg ]
+"421
+[v fround@prec prec `uc  1 a 1 85 ]
+"426
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 4 ]
+"7
+[v ___lwmod@dividend dividend `ui  1 p 2 0 ]
+[v ___lwmod@divisor divisor `ui  1 p 2 2 ]
+"25
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 9 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 11 ]
+"7
+[v ___lwdiv@dividend dividend `ui  1 p 2 5 ]
+[v ___lwdiv@divisor divisor `ui  1 p 2 7 ]
+"30
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S566 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S571 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S574 . 4 `l 1 i 4 0 `d 1 f 4 0 `S566 1 fAsBytes 4 0 `S571 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S574  1 a 4 67 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 61 ]
+[s S642 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S645 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S642 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S645  1 a 2 71 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 66 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 65 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 60 ]
+"8
+[v ___flmul@b b `d  1 p 4 48 ]
+[v ___flmul@a a `d  1 p 4 52 ]
+"205
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\ftdivl.c
+[v __tdiv_to_l_ _tdiv_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __tdiv_to_l_@quot quot `ul  1 a 4 11 ]
+"62
+[v __tdiv_to_l_@exp1 exp1 `uc  1 a 1 16 ]
+[v __tdiv_to_l_@cntr cntr `uc  1 a 1 15 ]
+"60
+[v __tdiv_to_l_@f1 f1 `f  1 p 4 0 ]
+[v __tdiv_to_l_@f2 f2 `f  1 p 4 4 ]
+"101
+} 0
+"60 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fldivl.c
+[v __div_to_l_ _div_to_l_ `(ul  1 e 4 0 ]
+{
+"63
+[v __div_to_l_@quot quot `ul  1 a 4 8 ]
+"62
+[v __div_to_l_@exp1 exp1 `uc  1 a 1 13 ]
+[v __div_to_l_@cntr cntr `uc  1 a 1 12 ]
+"60
+[v __div_to_l_@f1 f1 `d  1 p 4 0 ]
+[v __div_to_l_@f2 f2 `d  1 p 4 4 ]
+"101
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 24 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 23 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 14 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 22 ]
+"44
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+{
+"10
+[v ___llmod@counter counter `uc  1 a 1 21 ]
+"7
+[v ___llmod@dividend dividend `ul  1 p 4 13 ]
+[v ___llmod@divisor divisor `ul  1 p 4 17 ]
+"25
+} 0
+"7 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\__lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+{
+"10
+[v ___lldiv@quotient quotient `ul  1 a 4 8 ]
+"11
+[v ___lldiv@counter counter `uc  1 a 1 12 ]
+"7
+[v ___lldiv@dividend dividend `ul  1 p 4 0 ]
+[v ___lldiv@divisor divisor `ul  1 p 4 4 ]
+"30
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 91 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 90 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 82 ]
+"70
+} 0
+"245 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___flsub __flsub `(d  1 e 4 0 ]
+{
+[v ___flsub@b b `d  1 p 4 102 ]
+[v ___flsub@a a `d  1 p 4 106 ]
+"250
+} 0
+"10
+[v ___fladd __fladd `(d  1 e 4 0 ]
+{
+"17
+[v ___fladd@grs grs `uc  1 a 1 101 ]
+"15
+[v ___fladd@bexp bexp `uc  1 a 1 100 ]
+"16
+[v ___fladd@aexp aexp `uc  1 a 1 99 ]
+"13
+[v ___fladd@signs signs `uc  1 a 1 98 ]
+"10
+[v ___fladd@b b `d  1 p 4 86 ]
+[v ___fladd@a a `d  1 p 4 90 ]
+"237
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flneg.c
+[v ___flneg __flneg `(d  1 e 4 0 ]
+{
+[v ___flneg@f1 f1 `d  1 p 4 0 ]
+"20
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\flge.c
+[v ___flge __flge `(b  1 e 0 0 ]
+{
+[v ___flge@ff1 ff1 `d  1 p 4 0 ]
+[v ___flge@ff2 ff2 `d  1 p 4 4 ]
+"19
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+{
+[v ___fleq@ff1 ff1 `d  1 p 4 28 ]
+[v ___fleq@ff2 ff2 `d  1 p 4 32 ]
+"12
+} 0
+"454 E:\CalculadoraLCD.X\CalculadoraLCD.c
+[v _ins_LCD ins_LCD `(v  1 e 1 0 ]
+{
+[v ins_LCD@dato dato `uc  1 a 1 wreg ]
+[v ins_LCD@dato dato `uc  1 a 1 wreg ]
+[v ins_LCD@dato dato `uc  1 a 1 1 ]
+"459
+} 0
+"404
+[v _ini_LCD ini_LCD `(v  1 e 1 0 ]
+{
+"433
+} 0
+"437
+[v _enable enable `(v  1 e 1 0 ]
+{
+"441
+} 0
+"381
+[v _conf_puertos conf_puertos `(v  1 e 1 0 ]
+{
+"400
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+{
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+"6
+[v ___lbdiv@quotient quotient `uc  1 a 1 3 ]
+"7
+[v ___lbdiv@counter counter `uc  1 a 1 2 ]
+"4
+[v ___lbdiv@dividend dividend `uc  1 a 1 wreg ]
+[v ___lbdiv@divisor divisor `uc  1 p 1 0 ]
+"9
+[v ___lbdiv@dividend dividend `uc  1 a 1 1 ]
+"26
+} 0
